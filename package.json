@@ -1,0 +1,19 @@
+{
+  "name": "cinegui",
+  "title": "cinegui",
+  "cat": "Plugins",
+  "desc": "cinegui",
+  "icon": "cinegui.png",
+  "angular": "angular-cinegui",
+  "files": [
+    	"cinegui.js",
+    	"public/*"
+  ],
+  "scripts": [
+    "angular-cinegui.js"
+  ],
+  "server": "cinegui.js",
+  "dependencies": {
+    "@cineana/cineserver-base": "file:///opt/cinesys/npm/cineserver-base",
+  }
+}
